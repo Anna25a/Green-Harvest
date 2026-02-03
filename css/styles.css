@@ -13,7 +13,12 @@ a {
 
 body {
     font-family: "Inter Tight", "Roboto", sans-serif;
-    background-color: #fff;
+    background-color: white;
     color: #141414;
 
+}
+.conteiner {
+    max-width: 1110px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
