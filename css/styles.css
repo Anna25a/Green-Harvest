@@ -14,7 +14,7 @@ a {
 body {
     font-family: "Inter Tight", "Roboto", sans-serif;
     background-color: white;
-    color: #141414;
+    color: white;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.25;
@@ -72,9 +72,11 @@ color: #fbfbfb;
 .discount-title {
 font-weight: 600;
 font-size: 76px;
+color: black;
 }
 .discount-greenlight{
-    background-color:  #3cbc81;;
+    background-color:  #3cbc81;
+    color: white;
 }
 /*VEGETABLE*/
 .vegetable {
@@ -96,6 +98,7 @@ color: white
     font-weight: 600;
 font-size: 64px;
 text-transform: uppercase;
+color: black;
 }
 .reviews-accent {
     color:  #576f35;
@@ -104,10 +107,20 @@ text-transform: uppercase;
     font-weight: 600;
 font-size: 18px;
 text-transform: uppercase;
+color: black;
 }
 .reviews-text {
     line-height: 1.25;
     color: gray;
 }
 /*CONTACT*/
-
+.contact {
+    background-color:  #576f35;
+}
+.title-contact {
+    font-weight: 600;
+font-size: 64px;
+line-height: 1;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+}
