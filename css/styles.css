@@ -15,7 +15,9 @@ body {
     font-family: "Inter Tight", "Roboto", sans-serif;
     background-color: white;
     color: #141414;
-
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
 }
 .conteiner {
     max-width: 1280px;
@@ -37,9 +39,6 @@ color: #fbfbfb;
 
 }
 .hero-text {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
 color:#fbfbfb; 
 }
 
@@ -53,7 +52,7 @@ letter-spacing: -0.01em;
 text-transform: uppercase;
 color: #fbfbfb;
 }
-.highliht {
+.text-accent {
     color: #d4bfc4;
 }
  .order-steps-left {
@@ -62,8 +61,53 @@ color: #fbfbfb;
  .order-steps-right {
     background-color: #576f35;
  }
+ .order-steps-item {
+
+}
+.text-default {
+    color:black ;
+    font-weight: 700;
+}
 /* DISCOUNT */
 .discount-title {
 font-weight: 600;
 font-size: 76px;
 }
+.discount-greenlight{
+    background-color:  #3cbc81;;
+}
+/*VEGETABLE*/
+.vegetable {
+    background-color:  #7a3145;
+}
+.vegetable-title{
+font-weight: 600;
+font-size: 64px;
+line-height: 1;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: white
+}
+.vegetable-text{
+    color:white;
+}
+/*REVIEWS*/
+.reviews-title{
+    font-weight: 600;
+font-size: 64px;
+text-transform: uppercase;
+}
+.reviews-accent {
+    color:  #576f35;
+}
+.reviews-name {
+    font-weight: 600;
+font-size: 18px;
+text-transform: uppercase;
+}
+.reviews-text {
+    line-height: 1.25;
+    color: gray;
+}
+/*CONTACT*/
+
